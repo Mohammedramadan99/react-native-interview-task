@@ -89,6 +89,7 @@ export default function ExerciseScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: "black",
   },
   loadingContainer: {
     flex: 1,
@@ -104,7 +105,6 @@ const styles = StyleSheet.create({
     padding: 15,
     borderBottomWidth: 1,
     borderBottomColor: '#eee',
-    backgroundColor: 'white',
   },
   avatar: {
     width: 50,
@@ -114,7 +114,6 @@ const styles = StyleSheet.create({
   userInfo: {
     marginLeft: 15,
     flex: 1,
-    backgroundColor: 'white',
   },
   name: {
     fontSize: 16,
