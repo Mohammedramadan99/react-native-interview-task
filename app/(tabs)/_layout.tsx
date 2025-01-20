@@ -34,20 +34,6 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
         }}
       />
-      <Tabs.Screen
-        name="solution"
-        options={{
-          title: 'Solution',
-          tabBarIcon: ({ color }) => <TabBarIcon name="check-circle" color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="solution2"
-        options={{
-          title: 'Solution 2',
-          tabBarIcon: ({ color }) => <TabBarIcon name="list" color={color} />,
-        }}
-      />
     </Tabs>
   );
 }
